@@ -12,7 +12,7 @@ const Hero = () => {
               // data-aos="fade-up"
               data-aos-delay="100"
               className=" mt-[1em] title font-bold text-center sm:mt-[-1em] md:mt-[-1em] lg:mt-[-1em] xl:mt-[-1em] text-6xl sm:first-letter:text-9xl md:text-9xl lg:text-9xl xl:text-9xl ">
-              Travel Bilis
+              Travel Bilis | Online Agency
             </h1>
             <p
               data-aos="fade-up"
