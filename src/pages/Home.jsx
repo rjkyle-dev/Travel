@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero/Hero";
-import NatureVid from "../assets/video/main.mp4";
-import bg from "../assets/bg.png";
+import bg from "../assets/video/bg.mp4";
+// import bg from "../assets/bg.png";
 // import BlogsComp from "../components/Blogs/BlogsComp";
 import Places from "../components/Places/Places";
 // import Testimonial from "../components/Testimonial/Testimonial";
@@ -21,14 +21,14 @@ const Home = () => {
     <>
       <div>
         <div className="h-[700px] mt-[2em] relative xl:mt-[-2em] sm:mt-[-2em] md:mt-[-2em] lg:mt-[-2em]">
-          {/* <video
+          <video
             autoPlay
             loop
             muted
             className="absolute right-0 top-0 w-full object-cover z-[-1]">
-            <source src={NatureVid} type="video/mp4" />
-          </video> */}
-          <img src={bg} alt="" className="absolute right-0 top-0 w-full object-cover z-[-1]"></img>
+            <source src={bg} type="video/mp4" />
+          </video>
+          {/* <img src={bg} alt="" className="absolute right-0 top-0 w-full object-cover z-[-1]"></img> */}
           <Hero />
         </div>
         <Places handleOrderPopup={handleOrderPopup} />

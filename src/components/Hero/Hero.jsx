@@ -11,17 +11,17 @@ const Hero = () => {
             <h1
               // data-aos="fade-up"
               data-aos-delay="100"
-              className=" mt-[1em] title font-bold text-center sm:mt-[-1em] md:mt-[-1em] lg:mt-[-1em] xl:mt-[-1em] text-6xl sm:first-letter:text-9xl md:text-9xl lg:text-9xl xl:text-9xl ">
+              className="travel mt-[1em] title font-bold text-center sm:mt-[-1em] md:mt-[-1em] lg:mt-[-1em] xl:mt-[-1em] text-6xl sm:first-letter:text-9xl md:text-9xl lg:text-9xl xl:text-9xl ">
               Travel Bilis | Online Agency
             </h1>
-            <p
+            {/* <p
               data-aos="fade-up"
               data-aos-delay="300"
               className="font-bold text-3xl lg:mt-3">
               Search Your Destination
-            </p>
+            </p> */}
           </div>
-          <div
+          {/* <div
             data-aos="fade-up"
             data-aos-delay="600"
             className="space-y-4 bg-sky-600 rounded-md p-4 relative lg:top-5">
@@ -74,7 +74,7 @@ const Hero = () => {
             <button className="bg-gradient-to-r from-primary to-secondary text-white hover:scale-105 px-4 py-2 rounded-full duration-200 absolute -bottom-12 left-1/2 -translate-x-1/2">
               Search Now
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
