@@ -7,12 +7,13 @@ const Hero = () => {
     <div className=" bg-black/20 h-full">
       <div className="h-full flex justify-center items-center p-4 bg-primary/10">
         <div className="container grid grid-cols-1 gap-4">
-          <div className="text-white">
+          <div className="text-white main-text">
             <h1
-              // data-aos="fade-up"
+              data-aos="fade-up"
               data-aos-delay="100"
               className="travel mt-[1em] title font-bold text-center sm:mt-[-1em] md:mt-[-1em] lg:mt-[-1em] xl:mt-[-1em] text-6xl sm:first-letter:text-9xl md:text-9xl lg:text-9xl xl:text-9xl ">
-              Travel Bilis | Online Agency
+              Travel Bilis 
+              <span className="text-yellow-400">Online Agency</span>
             </h1>
             {/* <p
               data-aos="fade-up"

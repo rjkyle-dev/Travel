@@ -30,10 +30,17 @@ const About = () => {
         </div>
 
         <div className="w-full mt-24 px-4">
-          <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 gap-8 lg:ml-52 w-full sm:ml-26">
+          <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 gap-[30rem] lg:ml-50 w-full sm:ml-26">
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-sky-400 h-[270px] lg:h-[250px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
-                <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
+              <div className="w-[250px] absolute top-32 left-2 inset-8 bg-sky-400 h-[370px] lg:h-[350px] lg:w-[300px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
+                <div className="relative left-0 -top-16 z-10 flex justify-center items-center">
+                  <img
+                    src={Juniville}
+                    alt="Concha"
+                    className="rounded-[10%] object-cover w-36 h-36 border-2 border-sky-600 hover:scale-105 transition duration-300 ease-in-out"
+                  />
+                </div>
+                <h1 className="text-2xl font-bold text-white -mt-9 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg lg:ml-[90px]">
                   CEO
                 </h1>
                 <h3 className="text-lg font-semibold text-black mt-8">
@@ -42,40 +49,52 @@ const About = () => {
                 <h3 className="text-lg font-semibold text-gray-600 mt-8">
                   Bachelor of Science Information Systems
                 </h3>
-              </div>
-              <div className="relative z-10 flex justify-center items-center mt-8">
-                <img
-                  src={Juniville}
-                  alt="Concha"
-                  className="rounded-full object-cover w-36 h-36 border-2 border-blue-600 hover:scale-105 transition duration-300 ease-in-out"
-                />
+                <h3 className="text-lg font-semibold text-gray-600 mt-8">
+                  torino.junieville@dnsc.edu.ph
+                </h3>
+                <h3 className="text-lg font-semibold text-gray-600 mt-8">
+                  +639059115407
+                </h3>
               </div>
             </div>
 
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-sky-400 h-[270px] lg:h-[250px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
-                <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
-                  COO
+              <div className="w-[280px] absolute top-32 left-0 inset-8 bg-sky-400 h-[370px] lg:h-[350px] lg:w-[300px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
+                <div className="relative left-0 -top-16 z-10 flex justify-center items-center">
+                  <img
+                    src={duh}
+                    alt="Concha"
+                    className="rounded-[10%] object-cover w-36 h-36 border-2 border-sky-600 hover:scale-105 transition duration-300 ease-in-out"
+                  />
+                </div>
+                <h1 className="text-2xl font-bold text-white -mt-9 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg lg:ml-[90px]">
+                  CEO
                 </h1>
                 <h3 className="text-lg font-semibold text-black mt-8">
                   APPLE GRACE G. FORMENTERA
                 </h3>
-                <h3 className="text-lg font-semibold text-gray-600 mt-3">
+                <h3 className="text-lg font-semibold text-gray-600 mt-8">
                   Bachelor of Science Information Systems
                 </h3>
-              </div>
-              <div className="relative z-10 flex justify-center items-center mt-8 ">
-                <img
-                  src={duh}
-                  alt="Nigas"
-                  className="w-36 h-36 object-cover rounded-full border-2 border-blue-600 hover:scale-105 transition duration-300 ease-in-out"
-                />
+                <h3 className="text-lg font-semibold text-gray-600 mt-8">
+                  formentera.applegrace@dnsc.edu.ph
+                </h3>
+                <h3 className="text-lg font-semibold text-gray-600 mt-8">
+                  +639059115407
+                </h3>
               </div>
             </div>
 
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-sky-400 h-[270px] lg:h-[250px]  rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
-                <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
+              <div className="w-[250px] absolute top-32 left-2 inset-8 bg-sky-400 h-[370px] lg:h-[350px] lg:w-[300px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
+                <div className="relative left-0 -top-16 z-10 flex justify-center items-center">
+                  <img
+                    src={Masamayor}
+                    alt="Concha"
+                    className="rounded-[10%] object-cover w-36 h-36 border-2 border-sky-600 hover:scale-105 transition duration-300 ease-in-out"
+                  />
+                </div>
+                <h1 className="text-2xl font-bold text-white -mt-9 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg lg:ml-[90px]">
                   CMO
                 </h1>
                 <h3 className="text-lg font-semibold text-black mt-8">
@@ -84,40 +103,17 @@ const About = () => {
                 <h3 className="text-lg font-semibold text-gray-600 mt-8">
                   Bachelor of Science Information Systems
                 </h3>
-              </div>
-              <div className="relative z-10 flex justify-center items-center mt-8">
-                <img
-                  src={Masamayor}
-                  alt="Selle"
-                  className="w-36 h-36 object-cover rounded-full border-2 border-blue-600 hover:scale-105 transition duration-300 ease-in-out"
-                />
-              </div>
-            </div>
-
-            {/* <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[260px] lg:h-[250px] lg:h-[250px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg px-5">
-                <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-10 w-[120px] rounded-lg">
-                  CTO
-                </h1>
-                <h3 className="text-lg font-semibold text-black mt-8">
-                  RJ Kyle G. Labrador
+                <h3 className="text-lg font-semibold text-gray-600 mt-8">
+                  masamayor.louavel@dnsc.edu.ph
                 </h3>
                 <h3 className="text-lg font-semibold text-gray-600 mt-8">
-                  Bachelor of Science Information Systems
+                  +639515360530
                 </h3>
               </div>
-              <div className="relative z-10 flex justify-center items-center mt-8">
-                <img
-                  // src={Kyle}
-                  alt="Kyle"
-                  className="w-36 h-36 object-cover rounded-full border-2 border-blue-600 hover:scale-105 transition duration-300 ease-in-out"
-                />
-              </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
-      {/* <Footer /> */}
     </>
   );
 };

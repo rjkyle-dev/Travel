@@ -1,6 +1,6 @@
 import React from "react";
-// import BlogsComp from "../components/Blogs/BlogsComp";
-// import Location from "../components/Location/Location";
+import BlogsComp from "../components/Blogs/BlogsComp";
+import Location from "../components/Location/Location";
 import Abouts from "../components/About/About";
 
 const About = () => {
@@ -10,7 +10,7 @@ const About = () => {
         <Abouts />
       </div>
 
-      {/* <div className="container pt-14">
+      <div className="container pt-14">
         <div className="py-10">
           <h1 className=" my-8 border-l-8 border-primary/50 py-2 pl-2 text-3xl font-bold">
             About us
@@ -36,9 +36,9 @@ const About = () => {
             tempora voluptate vero.
           </p>
         </div>
-      </div> */}
-      {/* <Location />
-      <BlogsComp /> */}
+      </div> 
+       <Location />
+      <BlogsComp />
     </>
   );
 };

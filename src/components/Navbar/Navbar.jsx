@@ -15,6 +15,10 @@ export const NavbarLinks = [
     link: "/about",
   },
   {
+    name: "Contact",
+    link: "/contacts",
+  },
+  {
     name: "Blogs",
     link: "/blogs",
   },
@@ -48,14 +52,14 @@ const Navbar = ({ handleOrderPopup }) => {
   return (
     <>
       <nav className="fixed top-0 right-0 w-full z-50 bg-sky-400 backdrop-blur-sm text-black shadow-md">
-        {/* <div className="bg-gradient-to-r from-primary to-secondary text-white ">
+        <div className="bg-gradient-to-r from-primary to-secondary text-white ">
           <div className="container py-[2px] sm:block hidden">
             <div className="flex items-center justify-between">
               <p className="text-sm">20% off on next booking</p>
               <p>mobile no. +91 123456789</p>
             </div>
           </div>
-        </div> */}
+        </div>
 
         <div className="container py-3 sm:py-0 ">
           <div className="flex justify-between items-center ">
@@ -80,6 +84,11 @@ const Navbar = ({ handleOrderPopup }) => {
                 <li className="py-4 hover:text-white">
                   <NavLink to="/best-places" activeClassName="active">
                     Best Places
+                  </NavLink>
+                </li>
+                <li className="py-4 hover:text-white">
+                  <NavLink to="/contacts" activeClassName="active">
+                    Contacts
                   </NavLink>
                 </li>
                 <li className="py-4 hover:text-white">
